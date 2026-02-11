@@ -1,0 +1,836 @@
+{
+  "sections": [
+    {
+      "id": "4",
+      "title": "Context of the organization",
+      "subsections": [
+        {
+          "id": "4",
+          "title": "",
+          "requirements": [
+            {
+              "id": "4.1",
+              "text": "Have the external and internal issues that affect the ISMS been determined?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "4.2",
+              "text": "Have the interested parties and their requirements been identified?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "4.3",
+              "text": "Has the scope of the ISMS been determined and documented?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "4.4",
+              "text": "Is an ISMS in place and being continually improved?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Leadership",
+      "subsections": [
+        {
+          "id": "5",
+          "title": "",
+          "requirements": [
+            {
+              "id": "5.1",
+              "text": "Does top management demonstrate  leadership and commitment to the ISMS by providing resources and communicating effectively? (see list A to H)",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "5.2",
+              "text": "Is a documented information security policy in place?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "5.3",
+              "text": "Does it set objectives for the ISMS?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "5.4",
+              "text": "Does it commit the organization to satisfying requirements and continually improving the ISMS?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "5.5",
+              "text": "Is it adequately communicated?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "5.6",
+              "text": "Are roles, responsibilities and authorities for the ISMS defined?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Planning",
+      "subsections": [
+        {
+          "id": "6",
+          "title": "",
+          "requirements": [
+            {
+              "id": "6.1",
+              "text": "Does the plan for the ISMS take into account the relevant issues and requirements?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.2",
+              "text": "Are all of the relevant risks and opportunities determined?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.3",
+              "text": "Are actions planned to address the identified risks and opportunities?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.4",
+              "text": "Is a documented information security risk assessment process defined and applied?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.5",
+              "text": "Is it clear when risk assessments should be carried out?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.6",
+              "text": "Has a risk assessment been carried out with respect to the confidentiality, integrity and availability of the information within scope?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.7",
+              "text": "Have risk owners been identified?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.8",
+              "text": "Have risks been analysed, evaluated and prioritised for treatment?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.9",
+              "text": "Is there a documented information security risk treatment process?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.10",
+              "text": "Have appropriate risk treatment options been selected for each risk that exceeds the risk acceptance criteria?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.11",
+              "text": "Have necessary controls been selected for each risk that requires treatment?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.12",
+              "text": "Has a Statement of Applicability been created?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.13",
+              "text": "Is there a plan to implement the identified treatments?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.14",
+              "text": "Has the risk treatment plan been approved by risk owners?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.15",
+              "text": "Have measurable information security objectives been established and communicated?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.16",
+              "text": "Is there a plan to achieve the defined information security objectives?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "6.17",
+              "text": "Is there a process to cater for the planning of expected and unexpected changes to the ISMS?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Support",
+      "subsections": [
+        {
+          "id": "7",
+          "title": "",
+          "requirements": [
+            {
+              "id": "7.1",
+              "text": "Are ISMS resources determined and provided?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.2",
+              "text": "Are all of the relevant people sufficiently competent to perform their roles?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.3",
+              "text": "Where necessary, is action taken to improve competence and are records kept?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.4",
+              "text": "Are all relevant people aware of the information security policy and the importance of good security?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.5",
+              "text": "Is effective internal and external communication in place?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.6",
+              "text": "Is all of the documented information required by the standard in place?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.7",
+              "text": "Are standards used for documentation such as titles, references, format, review and approval?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "7.8",
+              "text": "Is the lifecycle of documented information controlled, including that from outside the organization?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Operation",
+      "subsections": [
+        {
+          "id": "8",
+          "title": "",
+          "requirements": [
+            {
+              "id": "8.1",
+              "text": "Are planned changes controlled and the consequences of unplanned changes mitigated?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "8.2",
+              "text": "Are outsourced processes identified and controlled?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "8.3",
+              "text": "Are documented risk assessments carried out at planned intervals and when significant change happens?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "8.4",
+              "text": "Is the information security risk treatment plan being implemented and results documented?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Performance Evaluation",
+      "subsections": [
+        {
+          "id": "9",
+          "title": "",
+          "requirements": [
+            {
+              "id": "9.1",
+              "text": "Is it clearly defined what needs to be monitored and measured to determine the effectiveness of the ISMS?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "9.2",
+              "text": "Are the methods for monitoring, measurement, analysis and evaluation clearly defined and the results documented?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "9.3",
+              "text": "Are appropriate internal audits being carried out by suitably qualified and impartial people?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "9.4",
+              "text": "Are the audit results being communicated to management so that action can be taken?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "9.5",
+              "text": "Are documented management reviews being held regularly?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "9.6",
+              "text": "Are all of the topics from the standard a to f covered in each management review?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Improvement",
+      "subsections": [
+        {
+          "id": "10",
+          "title": "",
+          "requirements": [
+            {
+              "id": "10.1",
+              "text": "Is the ISMS being continually improved?",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "10.2",
+              "text": "Are nonconformities being identified, documented and addressed?",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A.5",
+      "title": "Organizational controls",
+      "subsections": [
+        {
+          "id": "A.5",
+          "title": "",
+          "requirements": [
+            {
+              "id": "A.5.1",
+              "text": "An appropriate set of information security policies has been approved and communicated, and reviews happen when required.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.2",
+              "text": "Everyone knows what their information security roles and responsibilities are.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.3",
+              "text": "There are no conflicts of duties that could be a risk to the organization.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.4",
+              "text": "Management makes sure that everyone plays their part in ensuring effective information security.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.5",
+              "text": "Relevant authorities are known and appropriate ways to keep in contact with them are established.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.6",
+              "text": "Relevant specialist groups are known and appropriate ways to keep in contact with them are established.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.7",
+              "text": "A process is in place to understand information security threats to the organization.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.8",
+              "text": "Projects take due account of their information security rersponsibilities.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.9",
+              "text": "There is an accurate list of information assets and each asset has an owner.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.10",
+              "text": "There is a policy on how to use assets appropriately and everyone follows it.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.11",
+              "text": "Procedures are in place to ensure that assets are returned when people leave or change jobs.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.12",
+              "text": "An information classification scheme is in effect and is being used in all areas within scope.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.13",
+              "text": "Everyone knows how to label information appropriately according to the classification scheme.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.14",
+              "text": "Ways in which information must be transferred, both internally and externally, are defined.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.15",
+              "text": "It is clear how access to information and other assets will be managed so that it stays secure.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.16",
+              "text": "Appropriate methods are used to establish the identity of the person or system making a request, for example to access information.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.17",
+              "text": "Passwords and other types of authentication are managed according to a documented process.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.18",
+              "text": "Access rights to assets are assigned according to a documented policy.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.19",
+              "text": "The risks involved in dealing with suppliers are managed by the use of appropriate processes and procedures.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.20",
+              "text": "The ways in which the organization will interface with suppliers from an information security point of view, are agreed.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.21",
+              "text": "The organization's security requirements are passed down the supply chain.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.22",
+              "text": "A close eye is kept on whether suppliers are performing as expected and any changes are evaluated carefully.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.23",
+              "text": "Purchase, use and management of cloud services are performed according to defined processes.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.24",
+              "text": "There are defined procedures for incident management and everyone involved knows about them.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.25",
+              "text": "There is a process to decide whether an event should become an information security incident.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.26",
+              "text": "When they happen, incidents are responded to effectively according to the documented procedures.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.27",
+              "text": "Lessons learned from incidents are fed back into the relevant processes and procedures.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.28",
+              "text": "Incident management procedures include methods of finding and preserving evidence where required.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.29",
+              "text": "When a disruptive event happens, security is not compromised.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.30",
+              "text": "Plans are in place to recover ICT systems in a way that meets the defined objectives of the organization.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.31",
+              "text": "The relevant requirements are known and are taken into account when implemeting information security procedures and controls.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.32",
+              "text": "Care is taken to ensure that the IP rights of others are not infringed, and to protect the organization's IP.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.33",
+              "text": "Processes are in place to protect records throughout their lifecycle.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.34",
+              "text": "Legal requirements for the protection of PII are understood and complied with at all times.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.35",
+              "text": "the approach to information security is independently reviewed on a regular basis to identify improvements.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.36",
+              "text": "Management regularly checks that information security rules and controls are correctly followed by everyone.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.5.37",
+              "text": "The correct way to perform information security activities is documented within procedures.",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A.6",
+      "title": "People controls",
+      "subsections": [
+        {
+          "id": "A.6",
+          "title": "",
+          "requirements": [
+            {
+              "id": "A.6.1",
+              "text": "Potential employees are subject to appropriate background checks prior to employment.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.2",
+              "text": "Appropriate information security-related wording is included in employment contracts.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.3",
+              "text": "Awareness, education and training are conducted to make sure everyone has the skills to maintain information security.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.4",
+              "text": "Anyone violating information security policy is subject to a formal disciplinary process.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.5",
+              "text": "Leavers and job changers are made aware of their ongoing information security obligations.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.6",
+              "text": "Agreements are documented and signed when protected information is shared.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.7",
+              "text": "An appropriately secure environment is established for all remote workers.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.6.8",
+              "text": "People know how to report suspicious events when they come across them.",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A.7",
+      "title": "Physical controls",
+      "subsections": [
+        {
+          "id": "A.7",
+          "title": "",
+          "requirements": [
+            {
+              "id": "A.7.1",
+              "text": "Perimeters are defined and appropriately secured.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.2",
+              "text": "Unauthorised access to secure areas is prevented.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.3",
+              "text": "Office locations and layouts are designed with information security in mind.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.4",
+              "text": "Appropriate physical security monitoring is in place at all locations.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.5",
+              "text": "The risks from physical and environmental threats are managed appropriately.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.6",
+              "text": "Specific rules covering secure areas, such as datacentres, are defined and implemented.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.7",
+              "text": "Devices and sensitive paper documents are protected from prying eyes.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.8",
+              "text": "Equipment is sited and positioned so that is it appropriately protected from unauthorised access or damage.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.9",
+              "text": "Devices used away from the organization's premises are appropriately protected.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.10",
+              "text": "Storage media are managed throughout their lifecycle and appropriately protected, for example using encryption.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.11",
+              "text": "The risk of failure of utilities has been assessed, and appropriate action taken to protect information processing facilities.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.12",
+              "text": "The risks to physical cables have been assessed and appropriate protection put in place.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.13",
+              "text": "Equipment such as UPS, alarm systems, air conditioning and fire systems are maintained correctly.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.7.14",
+              "text": "There is a procedure in place to ensure that storage media are wiped and software licenses reclaimed when devices are disposed of.",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A.8",
+      "title": "Technological controls",
+      "subsections": [
+        {
+          "id": "A.8",
+          "title": "",
+          "requirements": [
+            {
+              "id": "A.8.1",
+              "text": "There is a policy setting out how endpoint devices must be protected and all relevant personnel are aware of its contents.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.2",
+              "text": "Strict controls are in place over who has privileged access rights and they are regularly reviewed.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.3",
+              "text": "Dynamic access management techniques are used where appropriate to protect information.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.4",
+              "text": "Only authorised people have access to source code and associated assets such as software libraries.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.5",
+              "text": "Multi-factor authentication (MFA) is used where possible and appropriate to protect information.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.6",
+              "text": "Resource capacity, including ICT, people and facilities, is monitored and planned for so that it remains adequate at all times.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.7",
+              "text": "Anti-malware software is installed on all nodes and complementary controls such as application allowlisting are used to reduce the risk.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.8",
+              "text": "Information about vulnerabilities is regularly obtained and appropriate actions taken to address them.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.9",
+              "text": "Standard configurations are used for hardware, software, services and networks to reduce security exposures.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.10",
+              "text": "Information that is no longer required is deleted in a timely way and in accordance with legal obligations.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.11",
+              "text": "Techniques such as data masking, pseudonymization and anonymization are used to protect PII where appropriate.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.12",
+              "text": "Tools and procedures are in place to detect and act upon suspected data extraction by unauthorised people.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.13",
+              "text": "Appropriate backups are taken according to a documented policy and are regularly tested.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.14",
+              "text": "Appropriate redundancy is designed into information systems to meet established availability requirements.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.15",
+              "text": "Logs are kept and protected that record activities on information systems for analysis and investigation.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.16",
+              "text": "Monitoring tools are used to detect suspicious activity within the organization's systems and networks.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.17",
+              "text": "A central source of time is used for all of the organization's systems and networks.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.18",
+              "text": "Installation and use of utility programs is tightly controlled.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.19",
+              "text": "Procedures are in place to manage the installation, updating and testing of software the the production environment.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.20",
+              "text": "Appropriate controls are in place to secure networks, including virtualized networks.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.21",
+              "text": "The provision of external network services meets the organization's information security requirements.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.22",
+              "text": "Internal networks are segregated from each other where appropriate.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.23",
+              "text": "User access to websites is managed according to the organization's defined policy.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.24",
+              "text": "Approved ways to use cryptography are defined and implemented.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.25",
+              "text": "Software and systems are developed in a secure way according to established rules.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.26",
+              "text": "The security of applications is designed and evaluated as part of system development or acquisition.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.27",
+              "text": "A set of principles have been defined for the security of the overall architecture of the organization's systems and services.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.28",
+              "text": "Bespoke software code is written in a way that maximises its security and minimises vulnerabilities.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.29",
+              "text": "The security of new and changed systems is specifically tested as part of their creation and implementation.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.30",
+              "text": "Appropriate control is exercised over the security of software developed by external third parties.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.31",
+              "text": "The environments involved in the creation and maintenance of software are kept separate with appropriate security implemented on each.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.32",
+              "text": "Documented procedures are in place to manage the change process for information systems.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.33",
+              "text": "Test data is chosen carefully and with due regard to the protection of sensitive information.",
+              "defaultStatus": "Yes"
+            },
+            {
+              "id": "A.8.34",
+              "text": "Effective communication occurs between auditors and management to ensure that operational systems are not unduly affected by audit activities.",
+              "defaultStatus": "Yes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
