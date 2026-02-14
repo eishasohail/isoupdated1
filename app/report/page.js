@@ -122,7 +122,7 @@ export default function ReportPage() {
               </button>
 
               <div className="flex-1">
-                <h1 className="text-2xl md:text-4xl font-bold text-white">Compliance Report</h1>
+                <h1 className="text-2xl md:text-4xl font-bold text-white">Gap Assessment Report</h1>
                 <p className="text-[#5EEAD4] mt-1 md:mt-2 text-sm md:text-base">
                   ISO 27001 Assessment Summary
                 </p>
@@ -391,3 +391,4 @@ export default function ReportPage() {
     </>
   );
 }
+
