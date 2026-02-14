@@ -90,12 +90,12 @@ export default function ISOFormHome() {
             <div className="text-center space-y-6 animate-fadeIn">
               {/* Main Title */}
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight animate-slideUp">
-                ISO 27001 Compliance Assessment
+                ISO 27001 Gap Assessment
               </h1>
 
               {/* Subtitle */}
               <p className="text-base md:text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed font-light animate-slideUp" style={{ animationDelay: '0.1s' }}>
-                Evaluate your organization's ISMS against 140 requirements across 11 sections. 
+                Evaluate your organizations ISMS against 140 requirements across 11 sections. 
                 Identify gaps and achieve certification.
               </p>
 
