@@ -143,27 +143,59 @@ export default function ReportPage() {
 
         {/* Main Content */}
         <main className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
-          {/* Overview Stats */}
+          {/* Overview Stats - GDPR Style with Subtle Animations */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8 md:mb-12">
-            <div className="bg-gradient-to-br from-[#1e3a8a] to-[#0f172a] p-4 md:p-6 rounded-xl text-white">
-              <div className="text-xs md:text-sm text-slate-600 mb-2">Total Requirements</div>
-              <div className="text-3xl md:text-4xl font-bold">{stats.total}</div>
+            {/* Total Requirements */}
+            <div className="bg-white rounded-xl p-4 md:p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-3xl md:text-4xl font-bold text-slate-900">{stats.total}</div>
+              <div className="text-xs md:text-sm text-slate-500 uppercase tracking-wide font-medium mt-1">Total Requirements</div>
             </div>
             
-            <div className="bg-gradient-to-br from-[#14B8A6] to-[#0D9488] p-4 md:p-6 rounded-xl text-white">
-              <div className="text-xs md:text-sm text-slate-600 mb-2">Assessed</div>
-              <div className="text-3xl md:text-4xl font-bold">{assessed}</div>
-              <div className="text-xs md:text-sm text-slate-600 mt-1">{Math.round(overallProgress)}%</div>
+            {/* Assessed */}
+            <div className="bg-white rounded-xl p-4 md:p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-teal-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-[#14B8A6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-3xl md:text-4xl font-bold text-slate-900">{assessed}</div>
+              <div className="text-xs md:text-sm text-slate-500 uppercase tracking-wide font-medium mt-1">Assessed</div>
+              <div className="text-xs md:text-sm text-slate-400 mt-1">{Math.round(overallProgress)}%</div>
             </div>
             
-            <div className="bg-gradient-to-br from-[#10b981] to-[#059669] p-4 md:p-6 rounded-xl text-white">
-              <div className="text-xs md:text-sm text-slate-600 mb-2">Compliant</div>
-              <div className="text-3xl md:text-4xl font-bold">{stats.compliant}</div>
+            {/* Compliant */}
+            <div className="bg-white rounded-xl p-4 md:p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-green-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-3xl md:text-4xl font-bold text-slate-900">{stats.compliant}</div>
+              <div className="text-xs md:text-sm text-slate-500 uppercase tracking-wide font-medium mt-1">Compliant</div>
             </div>
             
-            <div className="bg-gradient-to-br from-[#ef4444] to-[#dc2626] p-4 md:p-6 rounded-xl text-white">
-              <div className="text-xs md:text-sm text-slate-600 mb-2">Gaps Found</div>
-              <div className="text-3xl md:text-4xl font-bold">{stats.nonCompliant}</div>
+            {/* Gaps Found */}
+            <div className="bg-white rounded-xl p-4 md:p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-red-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-3xl md:text-4xl font-bold text-slate-900">{stats.nonCompliant}</div>
+              <div className="text-xs md:text-sm text-slate-500 uppercase tracking-wide font-medium mt-1">Gaps Found</div>
             </div>
           </div>
 
