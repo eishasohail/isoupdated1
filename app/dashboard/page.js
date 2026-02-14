@@ -98,30 +98,62 @@ export default function DashboardPage() {
 
         {/* Main Content */}
         <main className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
-          {/* Top Stats Cards */}
+          {/* Top Stats Cards - GDPR Style with Subtle Animations */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8 md:mb-12">
-            <div className="bg-gradient-to-br from-[#1E293B] to-[#0F172A] rounded-xl p-6 text-white">
-              <div className="text-sm text-slate-600 mb-2">Total Scope</div>
-              <div className="text-4xl font-bold mb-1">{stats.total}</div>
-              <div className="text-xs text-white/60">Requirements in registry</div>
+            {/* Total Scope */}
+            <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-blue-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-4xl font-bold text-slate-900 mb-1">{stats.total}</div>
+              <div className="text-sm text-slate-500 uppercase tracking-wide font-medium">Total Scope</div>
+              <div className="text-xs text-slate-400 mt-1">Total articles in registry</div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#10b981] to-[#059669] rounded-xl p-6 text-white">
-              <div className="text-sm text-slate-600 mb-2">Confirmed Compliant</div>
-              <div className="text-4xl font-bold mb-1">{stats.compliant}</div>
-              <div className="text-xs text-white/60">No remediation required</div>
+            {/* Confirmed Compliant */}
+            <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-green-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-4xl font-bold text-slate-900 mb-1">{stats.compliant}</div>
+              <div className="text-sm text-slate-500 uppercase tracking-wide font-medium">Confirmed Compliant</div>
+              <div className="text-xs text-slate-400 mt-1">No remediation required</div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#ef4444] to-[#dc2626] rounded-xl p-6 text-white">
-              <div className="text-sm text-slate-600 mb-2">Critical Gaps</div>
-              <div className="text-4xl font-bold mb-1">{stats.nonCompliant}</div>
-              <div className="text-xs text-white/60">Remediation needed</div>
+            {/* Critical Gaps */}
+            <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-red-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-4xl font-bold text-slate-900 mb-1">{stats.nonCompliant}</div>
+              <div className="text-sm text-slate-500 uppercase tracking-wide font-medium">Critical Gaps</div>
+              <div className="text-xs text-slate-400 mt-1">Immediate fix needed</div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#f59e0b] to-[#d97706] rounded-xl p-6 text-white">
-              <div className="text-sm text-slate-600 mb-2">Partial Gaps</div>
-              <div className="text-4xl font-bold mb-1">{stats.partial}</div>
-              <div className="text-xs text-white/60">Partial compliance found</div>
+            {/* Partial Gaps */}
+            <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-amber-200 transition-all duration-300">
+              <div className="flex items-start justify-between mb-4">
+                <div className="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                </div>
+              </div>
+              <div className="text-4xl font-bold text-slate-900 mb-1">{stats.partial}</div>
+              <div className="text-sm text-slate-500 uppercase tracking-wide font-medium">Partial Gaps</div>
+              <div className="text-xs text-slate-400 mt-1">Partial compliance found</div>
             </div>
           </div>
 
